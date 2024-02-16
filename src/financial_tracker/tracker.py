@@ -26,12 +26,14 @@ def tracker():
             print("================================")
         if option == 3:
             print(income_list)
+            print(f"total income: {sum(income_list)}")
             print("================================")
         if option == 4:
             print(expense_list)
+            print(f"total expense: {sum(expense_list)}")
             print("================================")
         if option == 5:
-            print(sum(income_list)-sum(expense_list))
+            print(f"balance: {sum(income_list)-sum(expense_list)}")
             print("================================")
         if option == 0:
             print("Bye-bye")
