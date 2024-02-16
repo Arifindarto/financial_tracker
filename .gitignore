@@ -1,0 +1,5 @@
+dist
+*.pyc
+.nix-shell
+dump.rdb
+.pdm-python
